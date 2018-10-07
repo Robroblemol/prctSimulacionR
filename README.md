@@ -3,7 +3,8 @@ Practica de simulación taller de colas MM1 en R
 
 Se crea dos variales aleatorias de tipo exponencial, la primara con la llegada de cada cliente y la segunada con el tiempo de servicio
 
-```Lambda <- 0.2
+```
+Lambda <- 0.2
 miu <- 0.25
 N <- 10000
 tLlegada <- rexp(N,Lambda) #tiempo de llegada 
